@@ -2,6 +2,7 @@ package org.automation.elements;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.elementToBeClickable;
 
+import org.automation.base.BasePage;
 import org.automation.logger.Log;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -15,6 +16,33 @@ import org.openqa.selenium.support.ui.Select;
  * @since 06/11/2020
  */
 public final class DropDown extends Element {
+	/**
+	 * Click on the button.
+	 */
+	public void click() {
+		Log.info("Click [" + description + "] button");
+		wait.until(elementToBeClickable(locator)).click();
+	}
+
+	/**
+	 * Click on the button.
+	 * 
+	 * @param <T>       the type of the page class
+	 * @param pageClass expected class of the page after the click
+	 * @return the pageClass object
+	 */
+	public <T extends BasePage> T click(Class<T> pageClass) {
+		Log.info("Click [" + description + "] button");
+		try {
+			wait.until(elementToBeClickable(locator)).click();
+			return pageClass.newInstance();
+		} catch (IllegalAccessException | InstantiationException e) {
+			Log.error("Unable to create instance of the page class", e);
+			throw new RuntimeException("Unable to create instance of the page class", e);
+		}
+	}
+
+
 
 	/**
 	 * This Constructor is used to create an object to access a <b>Drop Down</b>.
