@@ -18,6 +18,12 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.Augmenter;
 
+/**
+ * @author TYS-Megha D
+ * @version 1.0.0
+ * @since 14/11/2022
+ *
+ */
 public final class Screenshot {
 
 	private Screenshot() {

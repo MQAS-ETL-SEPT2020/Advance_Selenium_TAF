@@ -35,9 +35,9 @@ import com.codoid.products.fillo.Recordset;
 /**
  * To extend every test class created.
  * 
- * @author Sujay Sawant
+ * @author TYS-Megha D
  * @version 1.0.0
- * @since 6/11/2020
+ * @since 14/11/2022
  *
  */
 @Listeners({ TestRunListener.class, TestReporter.class })
@@ -82,7 +82,7 @@ public abstract class BaseTest {
 		try {
 			Fillo fillo = new Fillo();
 			con = fillo.getConnection(pathName);
-			record = con.executeQuery("Select * from TestData where TestCase = '"
+			record = con.executeQuery("Select * from DemoWebShop where TestCase = '"
 					+ method.getDeclaringClass().getSimpleName() + "." + method.getName() + "'");
 			while (record.next()) {
 				Map<String, String> data = new HashMap<String, String>();

@@ -13,9 +13,9 @@ import org.openqa.selenium.NoSuchWindowException;
 /**
  * To extend every page class created.
  * 
- * @author Sujay Sawant
+ * @author TYS-Megha D
  * @version 1.0.0
- * @since 6/11/2020
+ * @since 14/11/2022
  *
  */
 public abstract class BasePage {

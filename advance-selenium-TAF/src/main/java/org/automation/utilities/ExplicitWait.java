@@ -11,9 +11,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 /**
  * To handle conditions that require synchronization.
  * 
- * @author Sujay Sawant
+ * @author TYS-Megha D
  * @version 1.0.0
- * @since 08/31/2020
+ * @since 14/11/2022
  *
  */
 public final class ExplicitWait {

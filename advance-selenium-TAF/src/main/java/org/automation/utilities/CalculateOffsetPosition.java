@@ -10,9 +10,9 @@ import org.openqa.selenium.WebElement;
  * To calculate offsets which would be used to implement drag drop
  * functionality.
  * 
- * @author Sujay Sawant
+ * @author TYS-Megha D
  * @version 1.0.0
- * @since 08/31/2020
+ * @since 14/11/2022
  *
  */
 public final class CalculateOffsetPosition {

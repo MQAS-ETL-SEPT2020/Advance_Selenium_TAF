@@ -14,9 +14,9 @@ import org.testng.ITestResult;
 /**
  * Listener class to log the execution details of every test.
  * 
- * @author Sujay Sawant
+ * @author TYS-Megha D
  * @version 1.0.0
- * @since 06/11/2020
+ * @since 14/11/2022
  *
  */
 public final class TestRunListener implements ITestListener, ISuiteListener {

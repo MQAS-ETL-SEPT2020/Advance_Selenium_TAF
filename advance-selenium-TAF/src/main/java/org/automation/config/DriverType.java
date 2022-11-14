@@ -30,10 +30,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 /**
  * To handle instances of all the driver types.
  * 
- * @author Sujay Sawant
+ *@author TYS-Megha D
  * @version 1.0.0
- * @since 6/11/2020
- *
+ * @since 14/11/2022
  */
 public enum DriverType implements DriverSetup {
 

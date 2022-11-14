@@ -16,9 +16,9 @@ import org.openqa.selenium.WebElement;
 /**
  * This Class is used to handle <b>Table</b>.
  * 
- * @author Sujay Sawant
+ * @author TYS-Megha D
  * @version 1.0.0
- * @since 06/11/2020
+ * @since 14/11/2022
  */
 public final class Table extends Element {
 

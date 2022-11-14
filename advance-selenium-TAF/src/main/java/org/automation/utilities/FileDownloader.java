@@ -38,9 +38,9 @@ import org.openqa.selenium.WebDriver;
 /**
  * To handle file downloading.
  * 
- * @author Sujay Sawant
+ * @author TYS-Megha D
  * @version 1.0.0
- * @since 08/31/2020
+ * @since 14/11/2022
  *
  */
 public final class FileDownloader {

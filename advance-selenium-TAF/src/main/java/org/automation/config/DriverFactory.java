@@ -11,9 +11,9 @@ import net.lightbody.bmp.BrowserMobProxy;
 /**
  * To create and handle web driver instances.
  * 
- * @author Sujay Sawant
+ * @author TYS-Megha D
  * @version 1.0.0
- * @since 6/11/2020
+ * @since 14/11/2022
  *
  */
 public final class DriverFactory {

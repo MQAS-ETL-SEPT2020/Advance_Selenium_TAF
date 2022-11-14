@@ -40,9 +40,9 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 /**
  * Listener class to create report on the completion of the execution.
  * 
- * @author Sujay Sawant
+ * @author TYS-Megha D
  * @version 1.0.0
- * @since 06/11/2020
+ * @since 14/11/2022
  *
  */
 public final class TestReporter implements IReporter {

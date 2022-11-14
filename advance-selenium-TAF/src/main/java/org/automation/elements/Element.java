@@ -22,9 +22,9 @@ import org.openqa.selenium.interactions.Actions;
 /**
  * This Class is used to handle a <b>Generic Element</b>.
  * 
- * @author Sujay Sawant
+ * @author TYS-Megha D
  * @version 1.0.0
- * @since 06/11/2020
+ * @since 14/11/2022
  */
 public class Element {
 
